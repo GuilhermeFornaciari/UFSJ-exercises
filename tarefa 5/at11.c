@@ -4,11 +4,12 @@
 
 int main(){
 
-    int n, n1, o, r;
+    int n = 0, n1 = 0, o = 0, r = 0;
     while (o!=5)
     {
         printf("\n --------------------\n ");
         scanf("%d %d",&n,&n1);
+        printf("Adição (opção 1)\nSubtração (opção 2)\nMultiplicação (opção 3)\nDivisão (opção 4)\nSaída (opção 5)\n");
         scanf("%d",&o);
 
         if (o==1)
