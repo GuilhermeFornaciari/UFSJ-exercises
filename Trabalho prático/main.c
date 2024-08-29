@@ -414,7 +414,6 @@ int main(){
 
   if(!meninoBom) {
     printf("Menino(a) mal, você pediu pro sistema completar sozinho???? sem lugar no leaderboard pra você! tempo: %d segundos\n",tempo);
-    SalvarLeaderboard(tempo);
     verLeaderboard();
     return 0;
     }
