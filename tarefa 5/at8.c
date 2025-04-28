@@ -11,14 +11,10 @@ int main(){
 
     while (b != 0)
     {
-        
         resto = a % b;
         a = b;
         b = resto;
-
-            printf("%d,",a);
-
-
+        printf("%d,",a);
     }
 
     if (a==1)
@@ -28,8 +24,6 @@ int main(){
         printf("\n Eles não são primos entre si");
     }
     printf(" \n\n %d",a);
-
-    
     return 0;
 
 }
